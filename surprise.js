@@ -1,5 +1,5 @@
 var maxLinksPerFeed = 5;
-var techBlogsList = [
+var randomSupportedSites = [
 		'https://en.wikipedia.org/wiki/Special:RandomInCategory/Computer_programming',
 		'http://www.howstuffworks.com/random-article',
 		'http://www.wikihow.com/Special:Randomizer',
@@ -73,6 +73,6 @@ $(window).load(function(){
 		console.log('loading ' + feedsList[aFeedUrl]);
 		feedToUrlList(feedsList[aFeedUrl],extractUrlsFromFeed);
 	}
-	addToAllUrls(techBlogsList);
+	addToAllUrls(randomSupportedSites);
 	reload();
 });
