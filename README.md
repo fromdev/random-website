@@ -1,5 +1,4 @@
-# random-website
-Random Website
+# Random Website
 
 The random website is a project to randomly browse awesome internet content. 
 
