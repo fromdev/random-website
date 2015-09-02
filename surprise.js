@@ -64,7 +64,7 @@ $(window).load(function(){
 		}
 	};	
 	var reload = function() {
-		$('#main').attr('src',refUrl + + '?utm_source=fromdev.github.io&utm_medium=web&utm_campaign=self&utm_term=random-website&utm_content=random-website');
+		$('#main').attr('src',refUrl + + '?utm_source=fromdev&utm_medium=web&utm_campaign=self&utm_term=random-website&utm_content=random-website');
 	};
 	$('#next').click(reload);
 	for(var aFeedUrl in feedsList) {
