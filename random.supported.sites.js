@@ -1,9 +1,7 @@
 addToRandomSupportedSites(
 [
 		'https://en.wikipedia.org/wiki/Special:RandomInCategory/Computer_programming',
-		'http://www.howstuffworks.com/random-article',
-		'http://www.wikihow.com/Special:Randomizer',
-		'http://www.fromdev.com/random',
-		'https://www.ted.com/surpriseme?minutes=30&talks=1704&token=jR3EYgs3mNXSVw%2FKGXR5yg%3D%3D&rating_word_id=9'
+		'https://www.wikihow.com/Special:Randomizer',
+		'https://www.fromdev.com/random'
 ]
 );
